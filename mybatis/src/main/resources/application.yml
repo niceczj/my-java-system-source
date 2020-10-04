@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 123456
+      url: jdbc:mysql://localhost:3307/spring_cloud_simple?useUnicode=true&characterEncoding=utf8
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
